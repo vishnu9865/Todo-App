@@ -18,7 +18,6 @@ function Navbar(prop) {
     }
     let temp = todo;
     setTodo('');
-    console.log(prop.onAdd);
     prop.onAdd(temp);
   }
 
