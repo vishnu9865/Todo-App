@@ -20,7 +20,7 @@ function TodoItem( props) {
         className="todolist__content" 
         style={ isDone ? {textDecoration:'line-through'}:{textDecoration:'none'}}
       >
-        <i className="bi bi-arrow-right"></i> {props.todo}
+        {props.todo}
       </p>
       <div className="todolist__item-input-group">
         <button 
